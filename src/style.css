@@ -14,6 +14,7 @@ src/styles.css
 @tailwind components;
 @tailwind utilities;
 
+/* Créations de nos propres classes tailWindCSS à réutiliser dans la balise HTML */
 .myCard {
   @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg;
 }
